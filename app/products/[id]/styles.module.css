@@ -1,0 +1,31 @@
+/* productCard.module.css */
+
+.productCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  max-width: 50vw;
+  margin: 25px auto;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+.productCard h1 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.productCard img {
+  max-width: 300px; /* Set max-width to 300px */
+  width: 100%; /* Ensure image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px;
+}
+
+/* Additional styling as needed */

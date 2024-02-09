@@ -1,0 +1,25 @@
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  gap: 20px; /* Gap between grid items */
+}
+
+.product {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.product img {
+  max-height: 250px; /* Adjust the value to set the desired height */
+  min-width: 250px;
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+  margin-right: 10px; /* Add space between the image and text */
+}
+
+.product p {
+  margin: 0; /* Remove default margin */
+  font-family: 'Playfair Display', cursive; /* Apply the imported font */
+  font-size: 3rem;
+}
+
+/* Additional styling as needed */
